@@ -1,0 +1,34 @@
+
+public class Ejercicio9 {
+    public int base2(int n){
+        int resultado=0;
+        int multi= 1;
+        while(n>0){
+            int dig= n%2;
+            resultado= dig*multi+resultado;
+            multi= multi*10;  //1 10 100 1000 10000
+            n= n/2;
+        }
+        return resultado;
+    }
+    
+    public String malvadoOdioso(int n){
+        String res="";
+        if(cont(n)%2==0)
+        res="Malvado";
+        else
+        res="Odioso";
+        return res;
+}
+private int cont(int n){
+    int num=base2(n);
+   int contar=0;
+    while (num>0){
+        int dig=num%10;
+        if(dig==1)
+        contar++;
+        num=num/10;
+    }
+    return contar;
+}
+}

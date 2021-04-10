@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Ejercicio10
+comment1.params=n
+comment1.target=java.lang.String\ malvadoOdioso(int)
+comment2.params=n
+comment2.target=int\ binario(int)
+comment3.params=n
+comment3.target=int\ cont(int)
+numComments=4

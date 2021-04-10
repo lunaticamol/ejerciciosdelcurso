@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Ejercicio2
+comment1.params=N
+comment1.target=java.lang.String\ esPrimoCompuesto(int)
+comment2.params=b
+comment2.target=int\ Divisores(int)
+numComments=3

@@ -1,0 +1,38 @@
+
+/**
+ * Write a description of class ejercicio7 here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class ejercicio7
+{
+    public String narcisista(int n){
+        
+        String res="";
+        int suma=0;
+        while(n>0){
+            int dig2;
+            int dig=n%10 ;
+dig2=resElevado(dig);
+suma=suma+dig2;
+n=n/10;
+if(suma==n)
+    res="es narcisista";
+    else
+    res="no es narcisista";
+}
+return res;
+}
+private int resElevado(int a){
+    int res=1;
+    
+    for(int i=1;i>4;i++){
+        
+        res=res*a;
+    }
+    return res;
+    }
+
+}
+            
