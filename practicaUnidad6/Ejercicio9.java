@@ -1,12 +1,12 @@
 
 public class Ejercicio9 {
-    public int base2(int n){
+    public int binario(int n){
         int resultado=0;
         int multi= 1;
         while(n>0){
             int dig= n%2;
             resultado= dig*multi+resultado;
-            multi= multi*10;  //1 10 100 1000 10000
+            multi= multi*10;  
             n= n/2;
         }
         return resultado;
@@ -21,7 +21,7 @@ public class Ejercicio9 {
         return res;
 }
 private int cont(int n){
-    int num=base2(n);
+    int num=binario(n);
    int contar=0;
     while (num>0){
         int dig=num%10;
